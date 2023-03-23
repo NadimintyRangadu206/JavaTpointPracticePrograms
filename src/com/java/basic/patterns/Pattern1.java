@@ -6,7 +6,7 @@ package com.java.basic.patterns;
  * 543*1 
  * 54*21 
  * 5*321 
- * 4321
+   *4321
  * 
  * @author nadim
  *
