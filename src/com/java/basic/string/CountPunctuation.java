@@ -12,7 +12,7 @@ public class CountPunctuation {
 
 		String str = "He said, 'The mailman loves you.' I heard it with my own ears.";
 
-		Pattern p = Pattern.compile("[^A-Za-z0-9][\\s][\\W]");
+		Pattern p = Pattern.compile("[^A-Za-z0-9][\\s][\\W]");//--------->//Method1
 		Matcher m = p.matcher(str);
 		int count = 0;
 		while (m.find()) {
@@ -23,7 +23,7 @@ public class CountPunctuation {
 		}
 		System.out.println(count);
 
-		int cou = 0;
+		int cou = 0;                           // Method-2
 		for (int i = 0; i < str.length(); i++) {
 
 			if (str.charAt(i) == ',' || str.charAt(i) == '.' || str.charAt(i) == '\'' || str.charAt(i)=='\"') {
@@ -35,7 +35,7 @@ public class CountPunctuation {
 		// Stream Using
 
 		
-		List<Character> chList=new ArrayList<>();
+		List<Character> chList=new ArrayList<>();    // Method-3
 		
 		for(int i=0;i<str.length();i++) {
 			chList.add(str.charAt(i));

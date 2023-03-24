@@ -32,6 +32,8 @@ public class Anagram {
 		} else {
 			System.out.println("Not Anagram");
 		}
+		
+		
 
 	}
 
