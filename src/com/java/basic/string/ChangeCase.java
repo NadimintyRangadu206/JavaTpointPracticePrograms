@@ -1,5 +1,10 @@
 package com.java.basic.string;
-
+/**
+ * 
+ * In this class Aim is Characters are replacing UpperCase to LowerCase and LowerCase to UpperCase 
+ * @author nadim
+ *
+ */
 public class ChangeCase {
 
 	public static void main(String[] args) {
